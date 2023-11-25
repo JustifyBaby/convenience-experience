@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .text {
+  padding: 5px;
+  text-align: center;
+}
+
+.btn {
+  padding: 5px;
+}
+
+.result {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}

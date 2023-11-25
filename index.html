@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="natureRandom">
+      <button onclick="dice()" class="btn"><h1 class="text">A Dice on program</h1></button>
+      
+      <p> { Use the Function natureRandom(min , max) }</p>
+      <hr>
+      <div id="dice" class="result">?</div>
+    </div>
+  
+    <div class="randomChoice">
+      <button onclick="numSelecter()" class="btn"><h1 class="text">The Number From 1000 to 9999</h1></button>
+      <p>{ Use the Function arrayRandomChoice(arrayLength) }</p>
+      <hr>      
+      <div id="nums" class="result">????</div>
+    </div>
+  
+    <div class="rangeBetweenArray">
+      <input type="number" id="num">
+      <button onclick="multiSelecter()" class="btn"><h1>Extract multiples of That input of 3 pieces</h1></button>
+      <p>{ Use the Function rangeBetweenArray(init , increase , piece) & getInputById_withName(id) }</p>
+      <hr>
+      <div id="mlt" class="result">{? , ? , ?}</div>
+    </div>
+  </main>
+
+  <script src="../convenience.js"></script>
+  <script src="./testScript.js"></script>
+</body>
+</html>
